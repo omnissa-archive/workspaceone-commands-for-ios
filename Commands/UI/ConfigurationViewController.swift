@@ -3,7 +3,7 @@
 //  Commands
 //
 //  Created by Mohammed Lazim on 24/10/20.
-//  Copyright © 2020 VMware. All rights reserved.
+//  Copyright © 2020 Omnissa. All rights reserved.
 //
 
 import UIKit
@@ -24,7 +24,7 @@ extension UITextField {
 
 class ConfigurationViewController: UIViewController, DashboardPresenter {
 
-    static let screenIdentifier = "com.vmware.action.screen.configuration"
+    static let screenIdentifier = "com.omnissa.action.screen.configuration"
     static let storyboard = UIStoryboard(name: "Main", bundle: nil)
 
     @IBOutlet weak var hostnameTextField: UITextField!

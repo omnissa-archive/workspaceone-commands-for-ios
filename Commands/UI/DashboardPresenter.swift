@@ -3,7 +3,7 @@
 //  Commands
 //
 //  Created by Mohammed Lazim on 25/10/20.
-//  Copyright © 2020 VMware. All rights reserved.
+//  Copyright © 2020 Omnissa. All rights reserved.
 //
 
 import UIKit

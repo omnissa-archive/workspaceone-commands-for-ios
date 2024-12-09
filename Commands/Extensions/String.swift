@@ -3,7 +3,7 @@
 //  Action
 //
 //  Created by Mohammed Lazim on 2/17/19.
-//  Copyright © 2019-2020 VMware, Inc.
+//  Copyright © 2019-2020 Omnissa, LLC.
 
 import Foundation
 

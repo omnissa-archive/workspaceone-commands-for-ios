@@ -5,7 +5,7 @@
 //  Created by Mohammed Lazim on 7/8/19.
 //  Updated by Paul Evans on 5/12/20.
 //  Updated by Mohammed Lazim on 26/10/20.
-//  Copyright © 2019-2020 VMware, Inc.
+//  Copyright © 2019-2020 Omnissa, LLC.
 
 import UIKit
 

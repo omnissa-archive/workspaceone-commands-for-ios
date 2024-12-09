@@ -1,5 +1,5 @@
 Workspace ONE Commands for iOS
-Copyright (c) 2020 VMware, Inc.  All rights reserved				
+Copyright (c) 2020 Omnissa, LLC.  All rights reserved				
 
 The BSD-2 license (the "License") set forth below applies to all parts of the Workspace ONE Commands for iOS project.  You may not use this file except in compliance with the License.
 

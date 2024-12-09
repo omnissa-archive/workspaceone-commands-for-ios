@@ -1,9 +1,9 @@
 //
 //  DeviceShutdownEndpoint.swift
-//  VMware Action
+//  Omnissa Action
 //
 //  Created by Mohammed Lazim on 5/1/19.
-//  Copyright © 2019 VMware. All rights reserved.
+//  Copyright © 2019 Omnissa. All rights reserved.
 //
 
 import Foundation

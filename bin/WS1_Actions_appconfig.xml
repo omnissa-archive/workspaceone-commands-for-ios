@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <managedAppConfiguration>
      <version>1.0</version>
-     <bundleId>com.vmware.ws1-action</bundleId>
+     <bundleId>com.omnissa.ws1-action</bundleId>
      <dict>
           <string keyName="DEVICE_UID">
                <defaultValue>

@@ -29,7 +29,7 @@
 		79DA2CA622D9E49200482A8B /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA2CA522D9E49200482A8B /* Actions.swift */; };
 		79DA2CA822D9E50300482A8B /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA2CA722D9E50300482A8B /* APIConfiguration.swift */; };
 		79DA2CAA22D9E5C000482A8B /* ContextSetupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA2CA922D9E5C000482A8B /* ContextSetupTests.swift */; };
-		79DA2CAB22D9E64500482A8B /* VMware_ActionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792057CC21F4562400FD6888 /* VMware_ActionUITests.swift */; };
+		79DA2CAB22D9E64500482A8B /* Omnissa_ActionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792057CC21F4562400FD6888 /* Omnissa_ActionUITests.swift */; };
 		79FB1FA1221007EA00889228 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FB1FA0221007EA00889228 /* AppConfig.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,14 +39,14 @@
 			containerPortal = 7920579E21F4562200FD6888 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 792057A521F4562200FD6888;
-			remoteInfo = "VMware Action";
+			remoteInfo = "Omnissa Action";
 		};
 		792057C921F4562400FD6888 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7920579E21F4562200FD6888 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 792057A521F4562200FD6888;
-			remoteInfo = "VMware Action";
+			remoteInfo = "Omnissa Action";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -59,14 +59,14 @@
 		792057A621F4562200FD6888 /* Actions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Actions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		792057A921F4562200FD6888 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		792057AE21F4562200FD6888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		792057B121F4562200FD6888 /* VMware_Action.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VMware_Action.xcdatamodel; sourceTree = "<group>"; };
+		792057B121F4562200FD6888 /* Omnissa_Action.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Omnissa_Action.xcdatamodel; sourceTree = "<group>"; };
 		792057B321F4562300FD6888 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		792057B621F4562300FD6888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		792057B821F4562300FD6888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		792057BD21F4562400FD6888 /* CommandsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommandsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		792057C321F4562400FD6888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		792057C821F4562400FD6888 /* CommandsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommandsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		792057CC21F4562400FD6888 /* VMware_ActionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMware_ActionUITests.swift; sourceTree = "<group>"; };
+		792057CC21F4562400FD6888 /* Omnissa_ActionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Omnissa_ActionUITests.swift; sourceTree = "<group>"; };
 		792057CE21F4562400FD6888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		792057DB21F4574C00FD6888 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		79343C1122796EC900FA999F /* DeviceCommandEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCommandEndpoint.swift; sourceTree = "<group>"; };
@@ -172,7 +172,7 @@
 				792057B321F4562300FD6888 /* Assets.xcassets */,
 				792057B521F4562300FD6888 /* LaunchScreen.storyboard */,
 				792057B821F4562300FD6888 /* Info.plist */,
-				792057B021F4562200FD6888 /* VMware_Action.xcdatamodeld */,
+				792057B021F4562200FD6888 /* Omnissa_Action.xcdatamodeld */,
 			);
 			path = Commands;
 			sourceTree = "<group>";
@@ -189,7 +189,7 @@
 		792057CB21F4562400FD6888 /* CommandsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				792057CC21F4562400FD6888 /* VMware_ActionUITests.swift */,
+				792057CC21F4562400FD6888 /* Omnissa_ActionUITests.swift */,
 				792057CE21F4562400FD6888 /* Info.plist */,
 			);
 			path = CommandsUITests;
@@ -242,7 +242,7 @@
 			dependencies = (
 			);
 			name = Commands;
-			productName = "VMware Action";
+			productName = "Omnissa Action";
 			productReference = 792057A621F4562200FD6888 /* Actions.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -260,7 +260,7 @@
 				792057BF21F4562400FD6888 /* PBXTargetDependency */,
 			);
 			name = CommandsTests;
-			productName = "VMware ActionTests";
+			productName = "Omnissa ActionTests";
 			productReference = 792057BD21F4562400FD6888 /* CommandsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -278,7 +278,7 @@
 				792057CA21F4562400FD6888 /* PBXTargetDependency */,
 			);
 			name = CommandsUITests;
-			productName = "VMware ActionUITests";
+			productName = "Omnissa ActionUITests";
 			productReference = 792057C821F4562400FD6888 /* CommandsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -290,7 +290,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = VMware;
+				ORGANIZATIONNAME = Omnissa;
 				TargetAttributes = {
 					792057A521F4562200FD6888 = {
 						CreatedOnToolsVersion = 10.1;
@@ -393,7 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79DA2CAB22D9E64500482A8B /* VMware_ActionUITests.swift in Sources */,
+				79DA2CAB22D9E64500482A8B /* Omnissa_ActionUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,13 +598,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S2ZMFGQM93;
-				INFOPLIST_FILE = "VMware ActionTests/Info.plist";
+				INFOPLIST_FILE = "Omnissa ActionTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.air-watch.VMware-ActionTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.air-watch.Omnissa-ActionTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -617,13 +617,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S2ZMFGQM93;
-				INFOPLIST_FILE = "VMware ActionTests/Info.plist";
+				INFOPLIST_FILE = "Omnissa ActionTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.air-watch.VMware-ActionTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.air-watch.Omnissa-ActionTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -636,17 +636,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7SUQPKEF96;
-				INFOPLIST_FILE = "VMware ActionUITests/Info.plist";
+				INFOPLIST_FILE = "Omnissa ActionUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.air-watch.VMware-ActionUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.air-watch.Omnissa-ActionUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "VMware Action";
+				TEST_TARGET_NAME = "Omnissa Action";
 			};
 			name = Debug;
 		};
@@ -656,17 +656,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7SUQPKEF96;
-				INFOPLIST_FILE = "VMware ActionUITests/Info.plist";
+				INFOPLIST_FILE = "Omnissa ActionUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.air-watch.VMware-ActionUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.air-watch.Omnissa-ActionUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "VMware Action";
+				TEST_TARGET_NAME = "Omnissa Action";
 			};
 			name = Release;
 		};
@@ -712,13 +712,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		792057B021F4562200FD6888 /* VMware_Action.xcdatamodeld */ = {
+		792057B021F4562200FD6888 /* Omnissa_Action.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				792057B121F4562200FD6888 /* VMware_Action.xcdatamodel */,
+				792057B121F4562200FD6888 /* Omnissa_Action.xcdatamodel */,
 			);
-			currentVersion = 792057B121F4562200FD6888 /* VMware_Action.xcdatamodel */;
-			path = VMware_Action.xcdatamodeld;
+			currentVersion = 792057B121F4562200FD6888 /* Omnissa_Action.xcdatamodel */;
+			path = Omnissa_Action.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

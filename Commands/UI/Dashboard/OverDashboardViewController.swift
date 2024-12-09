@@ -1,9 +1,9 @@
 //
 //  OverDashboardViewController.swift
-//  VMware Action
+//  Omnissa Action
 //
 //  Created by Paul Evans on 5/13/20.
-//  Copyright © 2020 VMware. All rights reserved.
+//  Copyright © 2020 Omnissa. All rights reserved.
 //
 
 import UIKit
@@ -16,7 +16,7 @@ class OverDashboardViewController: UIViewController {
     @IBOutlet weak var backgroundView: UIImageView!
     @IBOutlet weak var navigationBar: UINavigationItem!
     
-    static let screenIdentifier = "com.vmware.action.screen.dashboard"
+    static let screenIdentifier = "com.omnissa.action.screen.dashboard"
     static let storyboard = UIStoryboard(name: "Main", bundle: nil)
 
     var service: NetworkService?

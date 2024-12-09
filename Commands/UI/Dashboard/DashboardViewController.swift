@@ -4,7 +4,7 @@
 //
 //  Created by Mohammed Lazim on 1/20/19.
 //  Updated by Paul Evans on 5/12/20.
-//  Copyright © 2020 VMware, Inc. All rights reserved.
+//  Copyright © 2020 Omnissa, LLC. All rights reserved.
 
 import UIKit
 
@@ -14,7 +14,7 @@ class DashboardViewController: UICollectionViewController {
     @IBOutlet weak var navigationBar: UINavigationItem!
     @IBOutlet weak var backgroundView: UIImageView!
     
-    static let screenIdentifier = "com.vmware.action.screen.dashboard"
+    static let screenIdentifier = "com.omnissa.action.screen.dashboard"
     static let storyboard = UIStoryboard(name: "Main", bundle: nil)
 
     var service: NetworkService?

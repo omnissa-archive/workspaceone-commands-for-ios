@@ -26,7 +26,7 @@ We believe this iOS project can truly harness the power of Workspace ONE UEM API
 The source code can be signed and compiled with an Apple Enterprise Developer Account, that allows for distribution through couple different methods :
 
 ### Enterprise App Distribution
-The archive (.ipa) built with Enterprise Developer account along with a *provisioning profile* can be uploaded to Workspace ONE UEM console and assigned to devices using smart groups. For more information on deploying enterprise apps with Workspace ONE UEM [refer this document](https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/1811/VMware-Workspace-ONE-UEM-Mobile-Application-Management/GUID-AWT-CONFIG-INTERNAL-APPS-LOCAL.html).
+The archive (.ipa) built with Enterprise Developer account along with a *provisioning profile* can be uploaded to Workspace ONE UEM console and assigned to devices using smart groups. For more information on deploying enterprise apps with Workspace ONE UEM [refer this document](https://docs.omnissa.com/en/Omnissa-Workspace-ONE-UEM/1811/Omnissa-Workspace-ONE-UEM-Mobile-Application-Management/GUID-AWT-CONFIG-INTERNAL-APPS-LOCAL.html).
 
 ### Custom App
 
@@ -45,7 +45,7 @@ https://www.apple.com/business/docs/resources/Managing_Devices_and_Corporate_Dat
 
 NOTE : This application does NOT trigger MDM enrollment, but is instead deployed as a Managed Application after an MDM enrollment.
 
-Source Code for the application is available here: https://github.com/vmware-samples/workspaceone-commands-for-ios
+Source Code for the application is available here: https://github.com/omnissa-archive/workspaceone-commands-for-ios
 
 You can use any MDM solution to test the app with the App Config information provided in the Github repo above.
 
@@ -69,7 +69,7 @@ Example :
 
 **Deployment**
 
-Deploying as a Custom App with the help of Apple Business Manager will be the most preferred method going forward. For more information on Custom Apps check [this Techzone tutorial](https://techzone.vmware.com/managing-ios-custom-apps-vmware-workspace-one-operational-tutorial).  The Application Configuration keys described above can be added to the app deployment during the assignment phase, as outlined in Step 8 of the [Assigning Custom Apps to Devices](https://techzone.vmware.com/managing-ios-custom-apps-vmware-workspace-one-operational-tutorial#1249320) section.
+Deploying as a Custom App with the help of Apple Business Manager will be the most preferred method going forward. For more information on Custom Apps check [this Techzone tutorial](https://techzone.omnissa.com/managing-ios-custom-apps-omnissa-workspace-one-operational-tutorial).  The Application Configuration keys described above can be added to the app deployment during the assignment phase, as outlined in Step 8 of the [Assigning Custom Apps to Devices](https://techzone.omnissa.com/managing-ios-custom-apps-omnissa-workspace-one-operational-tutorial#1249320) section.
 
 ## How to configure the app?
 
@@ -100,4 +100,4 @@ Rather than creating each of these keys manually, you can use the **Upload XML**
 Workspace ONE Commands for iOS project is released as open source software and, presently, provides community support through our GitHub project page and comes with no commercial support. If you encounter an issue or have a question, feel free to reach out via GitHub issues
 
 ## Contributing
-The Workspace ONE Commands for iOS project team welcomes contributions from the community. Before you start working with Workspace ONE Commands for iOS, please read our [Developer Certificate of Origin](https://cla.vmware.com/dco). All contributions to this repository must be signed as described on that page. Your signature certifies that you wrote the patch or have the right to pass it on as an open-source patch. For more detailed information, refer to CONTRIBUTING.md.
+The Workspace ONE Commands for iOS project team welcomes contributions from the community.

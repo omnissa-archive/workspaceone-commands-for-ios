@@ -3,7 +3,7 @@
 //  Action
 //
 //  Created by Mohammed Lazim on 7/13/19.
-//  Copyright © 2020 VMware, Inc. All rights reserved.
+//  Copyright © 2020 Omnissa, LLC. All rights reserved.
 
 import UIKit
 

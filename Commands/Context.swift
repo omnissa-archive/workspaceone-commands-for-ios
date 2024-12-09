@@ -4,7 +4,7 @@
 //
 //  Created by Mohammed Lazim on 7/8/19.
 //  Updated by Paul Evans on 5/12/20.
-//  Copyright © 2019-2020 VMware, Inc.
+//  Copyright © 2019-2020 Omnissa, LLC.
 
 import Foundation
 
@@ -139,7 +139,7 @@ struct ManagedConfigurationContextSetupProvider: UserDefaultsContextSetupProvide
 
 struct StoredConfigurationContextSetupProvider: UserDefaultsContextSetupProvider {
 
-    static var configurationKey = "com.vmware.commands.configuration"
+    static var configurationKey = "com.omnissa.commands.configuration"
 
     var context: ApplicationContext
 

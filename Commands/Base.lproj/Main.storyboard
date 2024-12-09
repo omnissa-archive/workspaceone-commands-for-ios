@@ -12,7 +12,7 @@
         <!--Dashboard View Controller-->
         <scene sceneID="FYI-Fb-duK">
             <objects>
-                <collectionViewController storyboardIdentifier="com.vmware.action.screen.dashboard" id="R8x-hS-Ehj" customClass="DashboardViewController" customModule="Actions" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController storyboardIdentifier="com.omnissa.action.screen.dashboard" id="R8x-hS-Ehj" customClass="DashboardViewController" customModule="Actions" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="iZC-Tj-dO3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -383,7 +383,7 @@
         <!--Configuration View Controller-->
         <scene sceneID="5QI-GS-Aya">
             <objects>
-                <viewController storyboardIdentifier="com.vmware.action.screen.configuration" id="Tfu-BM-gGw" customClass="ConfigurationViewController" customModule="Actions" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="com.omnissa.action.screen.configuration" id="Tfu-BM-gGw" customClass="ConfigurationViewController" customModule="Actions" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dHG-V3-9CD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

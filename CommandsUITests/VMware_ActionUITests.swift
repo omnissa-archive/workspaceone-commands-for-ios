@@ -3,11 +3,11 @@
 //  ActionUITests
 //
 //  Created by Mohammed Lazim on 1/20/19.
-//  Copyright © 2019-2020 VMware, Inc.
+//  Copyright © 2019-2020 Omnissa, LLC.
 
 import XCTest
 
-class VMware_ActionUITests: XCTestCase {
+class Omnissa_ActionUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
